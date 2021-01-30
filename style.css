@@ -392,13 +392,6 @@ footer a {
         width: 100%;
     }
 
-    .colunas5 {
-        float: left;
-        width: 45%;
-        text-align: center;
-        margin: 10px;
-    }
-
     .containermargem {
         margin: 5vw;
     }
@@ -407,7 +400,31 @@ footer a {
         float: left;
         width: 50%;
         text-align: center;
-        padding: 1.5%;
+        padding: 1%;
+    }
+
+    .colunas3 {
+        box-sizing: border-box;
+        float: left;
+        width: 50%;
+        text-align: center;
+        padding: 1%;
+    }
+
+    .colunas4 {
+        box-sizing: border-box;
+        float: left;
+        width: 50%;
+        text-align: center;
+        padding: 1%;
+    }
+
+    .colunas5 {
+        box-sizing: border-box;
+        float: left;
+        width: 50%;
+        text-align: center;
+        padding: 1%;
     }
 
 
