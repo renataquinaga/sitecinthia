@@ -193,11 +193,16 @@ a {
     margin: 10px;
 }
 
+.containermargem {
+    margin: 10vw;
+}
+
 .colunas2 {
+    box-sizing: border-box;
     float: left;
-    width: 30%;
+    width: 33.3333333333333333333333333333333333333%;
     text-align: center;
-    margin: 10px;
+    padding: 1.5%;
 }
 
 .colunas2 img {
@@ -227,7 +232,7 @@ a {
 
 .trescolunas {
     float: left;
-    width: 33.33333333333%;
+    width: 33,33333333333%;
     text-align: center;
     height: auto;
     position: relative;
@@ -386,11 +391,17 @@ footer a {
         margin: 10px;
     }
 
-    .colunas2 {
-        float: left;
-        width: 45%;
-        text-align: center;
-        margin: 10px;
+    .containermargem {
+        margin: 5vw;
     }
+    .colunas2 {
+        box-sizing: border-box;
+        float: left;
+        width: 50%;
+        text-align: center;
+        padding: 1.5%;
+    }
+
+
     
 }
