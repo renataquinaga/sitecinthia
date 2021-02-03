@@ -8,8 +8,9 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Raleway','Verdana', sans-serif;
+    font-family: 'Lora', serif;
     font-weight: normal;
+    color: #917B6B;
 }
   
 h1 {
@@ -22,17 +23,26 @@ h2 {
 }
   
 h3 {
-    font-size: 30px;
+    font-size: 24px;
+    margin: 7px 0;
 }
   
 p {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 a {
     font-weight: 800;
-    color: palevioletred;
+    color: #BC8C68;
     text-decoration: none;
+}
+
+.colunas4 p {
+    font-size: 13px;
+}
+
+.colunas4 a {
+    font-size: 14px;
 }
 
 .hamburger {
@@ -48,19 +58,16 @@ a {
     opacity: 0;
 }
 
-.menu, .submenu { /* lista */
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
+.menu, .submenu {
     list-style: none;
-    background-color: rgb(224, 143, 150);
+    background-color: #ffede2;
     z-index: 1;
 }
 
 .menu {
-    padding-left: 0px;
     position: fixed;
     width: 100vw;
+    font-size: 18px;
 }
 
 .menu li {
@@ -68,37 +75,42 @@ a {
 }
 
 .menu > li {
-    float: right;
-    margin-right: 20px;
+    float: left;
 }
 
 .menu a {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    font-weight: 200;
     text-decoration: none;
     display: block;
-    padding: 1.2em;
-    color: white;
+    padding: 15px 20px;
+    color: #917B6B;
 }
 
 .submenu {
+    font-size: 16px;
     display: none;
     position: absolute;
-    min-width: 11.4em;
-    color: black;
-    
+    min-width: 12em;
+    background: rgb(243, 195, 199);
 }
 
-.menu > li:hover {
-    background: rgb(236, 162, 168);
-}
+
+.menu a > li:hover {
+    color: #665c5c;
+} 
+
 
 .menu li:hover > .submenu {
     display: block;
 }
 
+
 .submenu li:hover {
     background:  rgb(243, 195, 199);
-}
+} 
+
 
 .clearfix:after{
     content: '.';
